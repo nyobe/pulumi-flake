@@ -19,53 +19,53 @@
     "pulumi_darwin_arm64": {
       "flake": false,
       "locked": {
-        "lastModified": 1701787008,
-        "narHash": "sha256-WIcOIJ8MElXuSqQT6jCiXGMCJste/cN1ipHjh3xoPUI=",
+        "lastModified": 1702351330,
+        "narHash": "sha256-iqm/WCot/XTtJMhsaNH9iHfEoPIwTqvBbJQilBFGzWo=",
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-darwin-arm64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-darwin-arm64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-darwin-arm64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-darwin-arm64.tar.gz"
       }
     },
     "pulumi_darwin_x64": {
       "flake": false,
       "locked": {
-        "lastModified": 1701787034,
-        "narHash": "sha256-jJme1YvNo0N/OiAlOx8kbTOiTu0zh76QiizqfCMZ03E=",
+        "lastModified": 1702351361,
+        "narHash": "sha256-xZ2qsbx+WZoFzAvu7shuAOTSUaJUCjTeSz2xmiYPnYc=",
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-darwin-x64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-darwin-x64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-darwin-x64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-darwin-x64.tar.gz"
       }
     },
     "pulumi_linux_arm64": {
       "flake": false,
       "locked": {
-        "lastModified": 1701787058,
-        "narHash": "sha256-O2UgiaENTAXkG8f3hsszZa3f0HACH/TVOU6kHf+H4qI=",
+        "lastModified": 1702351403,
+        "narHash": "sha256-m8NUC/hMOKOSp5jgSOLWkpe4/3gNNM0nWOii0WCTcgQ=",
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-linux-arm64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-linux-arm64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-linux-arm64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-linux-arm64.tar.gz"
       }
     },
     "pulumi_linux_x64": {
       "flake": false,
       "locked": {
-        "lastModified": 1701787083,
-        "narHash": "sha256-/OnZHvioQUNex+l5GmLVaHBP9qrUY07Fj6OxHqYvzkw=",
+        "lastModified": 1702351430,
+        "narHash": "sha256-RI3CgbpEP7f2DLE1jsKrJQFFCfVwJrSgRt1D9g7SR9U=",
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-linux-x64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-linux-x64.tar.gz"
       },
       "original": {
         "type": "tarball",
-        "url": "https://github.com/pulumi/pulumi/releases/download/v3.95.0/pulumi-v3.95.0-linux-x64.tar.gz"
+        "url": "https://github.com/pulumi/pulumi/releases/download/v3.96.2/pulumi-v3.96.2-linux-x64.tar.gz"
       }
     },
     "root": {
