@@ -1,13 +1,13 @@
 {
   inputs = {
     nixpkgs.url = github:NixOS/nixpkgs?rev=b7cde1c47b7316f6138a2b36ef6627f3d16d645c;
-    pulumi_darwin_x64.url = "https://github.com/pulumi/pulumi/releases/download/v3.117.0/pulumi-v3.117.0-darwin-x64.tar.gz";
+    pulumi_darwin_x64.url = "https://github.com/pulumi/pulumi/releases/download/v3.120.0/pulumi-v3.120.0-darwin-x64.tar.gz";
     pulumi_darwin_x64.flake = false;
-    pulumi_darwin_arm64.url = "https://github.com/pulumi/pulumi/releases/download/v3.117.0/pulumi-v3.117.0-darwin-arm64.tar.gz";
+    pulumi_darwin_arm64.url = "https://github.com/pulumi/pulumi/releases/download/v3.120.0/pulumi-v3.120.0-darwin-arm64.tar.gz";
     pulumi_darwin_arm64.flake = false;
-    pulumi_linux_x64.url = "https://github.com/pulumi/pulumi/releases/download/v3.117.0/pulumi-v3.117.0-linux-x64.tar.gz";
+    pulumi_linux_x64.url = "https://github.com/pulumi/pulumi/releases/download/v3.120.0/pulumi-v3.120.0-linux-x64.tar.gz";
     pulumi_linux_x64.flake = false;
-    pulumi_linux_arm64.url = "https://github.com/pulumi/pulumi/releases/download/v3.117.0/pulumi-v3.117.0-linux-arm64.tar.gz";
+    pulumi_linux_arm64.url = "https://github.com/pulumi/pulumi/releases/download/v3.120.0/pulumi-v3.120.0-linux-arm64.tar.gz";
     pulumi_linux_arm64.flake = false;
   };
 
@@ -24,7 +24,7 @@
 
       packagePulumi = sys:
         let
-          version = "v3.117.0";
+          version = "v3.120.0";
           pulumiSources = {
             "x86_64-darwin" = pulumi_darwin_x64;
             "aarch64-darwin" = pulumi_darwin_arm64;
