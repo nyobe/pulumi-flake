@@ -1,0 +1,42 @@
+name: Check for new pulumi release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-releases:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: hustcer/setup-nu@v3
+        with:
+          version: "0.98"
+
+      - name: Generate sources.json
+        id: generate_sources
+        run: |
+          nu ./generate-sources.nu > ./sources.json
+          git diff
+
+          VERSION=$(cat ./sources.json | jq -r '.[].version' | head -n1)
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+          UPDATED='false'; test -n "$(git status --porcelain)" && UPDATED='true'
+          echo "updated=$UPDATED" >> "$GITHUB_OUTPUT"
+
+      - name: Update and commit last checked release
+        if: steps.generate_sources.outputs.updated == 'true'
+        env:
+            VERSION: ${{ steps.generate_sources.outputs.version }}
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+
+          git add ./sources.json
+          git commit -m "$VERSION"
+          git push
+
+          git tag "$VERSION"
+          git push --tags
+
