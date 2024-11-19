@@ -1,0 +1,26 @@
+{
+  "x86_64-darwin": {
+    "name": "pulumi-v3.139.0-darwin-x64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.139.0/pulumi-v3.139.0-darwin-x64.tar.gz",
+    "hash": "sha512-V7yxmpLxkpWuECkxRpvF9xYQJmQkF7BLBEnUuPAknhXPK+DxIPcsRMg1ECKPtbpYuOyaLGAp9M+rr8Oy0aDaJA==",
+    "version": "v3.139.0"
+  },
+  "aarch64-darwin": {
+    "name": "pulumi-v3.139.0-darwin-arm64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.139.0/pulumi-v3.139.0-darwin-arm64.tar.gz",
+    "hash": "sha512-54adeUblrx2L06AARMaRPHhDyjXMmJUbg8c/n2vcB7iC1KWH+Tlll74Q4eATy3jgadk1UXxxsnFXARpeJWZEBw==",
+    "version": "v3.139.0"
+  },
+  "x86_64-linux": {
+    "name": "pulumi-v3.139.0-linux-x64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.139.0/pulumi-v3.139.0-linux-x64.tar.gz",
+    "hash": "sha512-+yWapW+cHN/CAdtodAnCptKAAJ9DmnvMugMLLPQVKEuVBKdoHMLrSzreptzYmJpSohHGDvRRfei0LINJolWypA==",
+    "version": "v3.139.0"
+  },
+  "aarch64-linux": {
+    "name": "pulumi-v3.139.0-linux-arm64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.139.0/pulumi-v3.139.0-linux-arm64.tar.gz",
+    "hash": "sha512-W7QPaVILXu5XuJ9nu0vGZwt82+zAQuty0qJCPNiVpLHg4kLeSq3CEbxcWRbZfQ/ngNOoRoJxreZhgEV1n/VLgg==",
+    "version": "v3.139.0"
+  }
+}
