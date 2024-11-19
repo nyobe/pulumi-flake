@@ -3,6 +3,10 @@ name: Check for new pulumi release
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: "0 * * * *" # daily
+
+
 jobs:
   check-releases:
     runs-on: ubuntu-latest
