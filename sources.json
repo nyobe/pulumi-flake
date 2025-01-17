@@ -1,26 +1,26 @@
 {
   "x86_64-darwin": {
-    "name": "pulumi-v3.145.0-darwin-x64.tar.gz",
-    "url": "https://github.com/pulumi/pulumi/releases/download/v3.145.0/pulumi-v3.145.0-darwin-x64.tar.gz",
-    "hash": "sha512-ESfZLdUMSK/Uj6Jah4l40tgNZNeT8GwCJdB8DrfaXzOZL/slsobi3KQ3DUiWELVUwD8Ay/tz+TuuxLxqY1zO2w==",
-    "version": "v3.145.0"
+    "name": "pulumi-v3.146.0-darwin-x64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.146.0/pulumi-v3.146.0-darwin-x64.tar.gz",
+    "hash": "sha512-9p2fuaUhBv4MmVx1EMNEaKDvv0RYYP3dZs5b2EW4Flip3WzPQ2luu66DUwX9ZzrAOUjuIrp6pEjPvsTCxbap6Q==",
+    "version": "v3.146.0"
   },
   "aarch64-darwin": {
-    "name": "pulumi-v3.145.0-darwin-arm64.tar.gz",
-    "url": "https://github.com/pulumi/pulumi/releases/download/v3.145.0/pulumi-v3.145.0-darwin-arm64.tar.gz",
-    "hash": "sha512-rK3X1m09ZS6uAQC23SPdzhfbuQ0mTtzRXZ3LJsiG5LYC/eCMxdlBEsm9A4udLz0jf9I/3zpWSPX8U8H7Je/jUQ==",
-    "version": "v3.145.0"
+    "name": "pulumi-v3.146.0-darwin-arm64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.146.0/pulumi-v3.146.0-darwin-arm64.tar.gz",
+    "hash": "sha512-13iNDDfAeVMZnjyEUe97t0FWP46cW8vhA7uNgLo2OsUjddI7XVks2NkWB370eXB/geZheLqmJE/nvq83Ex8Uzw==",
+    "version": "v3.146.0"
   },
   "x86_64-linux": {
-    "name": "pulumi-v3.145.0-linux-x64.tar.gz",
-    "url": "https://github.com/pulumi/pulumi/releases/download/v3.145.0/pulumi-v3.145.0-linux-x64.tar.gz",
-    "hash": "sha512-8C0F9Jrlq4hw6qa0FnWlzV2A8cSJtEwkULDVUfgQoFpAXjEHLjwjwHEV3v3hqkhhX1fDVttB2/eDzYzuDEfy0Q==",
-    "version": "v3.145.0"
+    "name": "pulumi-v3.146.0-linux-x64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.146.0/pulumi-v3.146.0-linux-x64.tar.gz",
+    "hash": "sha512-ntZR9q4zqgTunG0FI7J/BaEQQyxVFBLFbtt/VLbCUvho8SPbtGDQh21LFqAqoGKT6VCiJkYr9kTmX5/e5Ty+Jw==",
+    "version": "v3.146.0"
   },
   "aarch64-linux": {
-    "name": "pulumi-v3.145.0-linux-arm64.tar.gz",
-    "url": "https://github.com/pulumi/pulumi/releases/download/v3.145.0/pulumi-v3.145.0-linux-arm64.tar.gz",
-    "hash": "sha512-XY+voYDFFPg9QRpRHTLTk+Nv+1HalOSQfJWHKeYDQ4BN7cLu41X84G5HWNy9cevghPwNrxOa8St5bn1/jTvM/w==",
-    "version": "v3.145.0"
+    "name": "pulumi-v3.146.0-linux-arm64.tar.gz",
+    "url": "https://github.com/pulumi/pulumi/releases/download/v3.146.0/pulumi-v3.146.0-linux-arm64.tar.gz",
+    "hash": "sha512-dl+f+IBP5+OgoK+Gs6lFtImnTQmpMUar3UvoA20UQ8K3gUR+yCl4RCqKl8RkbQ2XN3dDCa/bVY9tPmBxp9So0g==",
+    "version": "v3.146.0"
   }
 }
